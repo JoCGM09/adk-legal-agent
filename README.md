@@ -23,6 +23,7 @@ legal_assistant/
 ├── agent.py            # Lógica principal del asistente
 ├── documentos.py       # Gestión de documentos y estructura de carpetas
 ├── __init__.py         # Inicialización del paquete
+├── .env.example        # Ejemplo de archivo de configuración
 ├── README.md           # Este archivo
 └── documentos/         # Documentos generados automáticamente
     ├── contratos/      # Contratos de ejemplo
@@ -61,11 +62,15 @@ El asistente crea automáticamente los siguientes documentos de ejemplo:
    ```bash
    pip install google-adk python-dotenv
    ```
-3. Crea un archivo `.env` basado en `.env.example`:
+3. Navega al directorio `legal_assistant`:
+   ```bash
+   cd legal_assistant
+   ```
+4. Crea un archivo `.env` basado en `.env.example`:
    ```bash
    cp .env.example .env
    ```
-4. Edita el archivo `.env` y añade tu clave API de Google:
+5. Edita el archivo `.env` y añade tu clave API de Google:
    ```
    GOOGLE_API_KEY=tu_clave_api_aquí
    ```
