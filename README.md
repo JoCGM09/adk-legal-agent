@@ -61,15 +61,19 @@ El asistente crea automáticamente los siguientes documentos de ejemplo:
    ```bash
    pip install google-adk python-dotenv
    ```
-3. Copia `.env.example` a `.env` y añade tu clave API de Google:
+3. Crea un archivo `.env` basado en `.env.example`:
+   ```bash
+   cp .env.example .env
+   ```
+4. Edita el archivo `.env` y añade tu clave API de Google:
    ```
    GOOGLE_API_KEY=tu_clave_api_aquí
    ```
-4. Ejecuta el asistente:
+5. Ejecuta el asistente:
    ```bash
    adk web
    ```
-5. Abre tu navegador en http://localhost:8000
+6. Abre tu navegador en http://localhost:8000
 
 ## Uso de Documentos de Prueba
 
