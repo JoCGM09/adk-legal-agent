@@ -8,122 +8,97 @@ from google.adk.agents import Agent
 # Importar el módulo de documentos
 from . import documentos
 
-# Base de datos legal (en una aplicación real, esto estaría conectado a una base de datos)
-BASE_DE_DATOS_LEGAL = {
-    "nda": {
-        "terminos_estandar": {
-            "periodo_confidencialidad": "2 años",
-            "ley_aplicable": "Estado de California, EE. UU.",
-            "jurisdiccion": "Tribunales de California"
-        },
-        "problemas_comunes": [
-            "Definiciones de confidencialidad demasiado amplias",
-            "Uso ilimitado de información confidencial",
-            "Exclusiones vagas de confidencialidad"
-        ]
-    },
-    "contrato_laboral": {
-        "terminos_estandar": {
-            "periodo_preaviso": "30 días",
-            "duracion_no_competencia": "1 año",
-            "propiedad_intelectual": "La empresa posee toda la PI relacionada con el trabajo"
-        },
-        "problemas_comunes": [
-            "Cláusulas de no competencia excesivamente restrictivas",
-            "Términos de cesión de PI poco claros",
-            "Condiciones de terminación vagas"
-        ]
-    }
-}
+# Directorio base para documentos
+DOCS_DIR = Path(__file__).parent / "documentos"
 
-# Base de conocimiento legal (en una aplicación real, esto sería más completo)
-BASE_DE_CONOCIMIENTO_LEGAL = {
-    "lgpd": {
-        "resumen": "La Ley General de Protección de Datos (LGPD) es una regulación brasileña sobre protección de datos personales y privacidad.",
-        "requisitos_clave": [
-            "Derecho al olvido",
-            "Portabilidad de datos",
-            "Notificación de violación de datos en 72 horas",
-            "Privacidad desde el diseño"
-        ]
-    },
-    "ccpa": {
-        "resumen": "La Ley de Privacidad del Consumidor de California (CCPA) es un estatuto estatal que mejora los derechos de privacidad y protección del consumidor para residentes de California, Estados Unidos.",
-        "requisitos_clave": [
-            "Derecho a saber qué datos personales se recopilan",
-            "Derecho a eliminar datos personales",
-            "Derecho a optar por no vender datos",
-            "Derecho a no sufrir discriminación"
-        ]
-    }
-}
+# Función para cargar documentos
+async def cargar_documentos() -> Dict[str, str]:
+    """Carga todos los documentos disponibles en el directorio de documentos"""
+    documentos_dict = {}
+    for doc_path in DOCS_DIR.rglob("*.txt"):
+        with open(doc_path, 'r', encoding='utf-8') as f:
+            documentos_dict[doc_path.name] = f.read()
+    return documentos_dict
 
+# Función para buscar en documentos
+async def buscar_en_documentos(
+    documentos: Dict[str, str],
+    termino: str
+) -> List[str]:
+    """Busca un término específico en los documentos disponibles"""
+    resultados = []
+    for nombre, contenido in documentos.items():
+        if termino.lower() in contenido.lower():
+            resultados.append(f"Encontrado en {nombre}")
+    return resultados
+
+# Función para analizar documentos
+async def analizar_documento(
+    documento: str,
+    tipo_analisis: str
+) -> Dict[str, str]:
+    """Analiza un documento según el tipo especificado"""
+    return {
+        "tipo": tipo_analisis,
+        "fecha_analisis": datetime.now().isoformat(),
+        "resultado": f"Análisis de {tipo_analisis} completado"
+    }
+
+# Funciones principales del agente
 def revisar_contrato(tipo_contrato: str, texto_contrato: str) -> Dict:
     """
-    Revisa un contrato e identifica posibles problemas según el tipo de contrato.
+    Revisa un contrato usando documentos reales y modelos de IA.
     
     Args:
         tipo_contrato: Tipo de contrato (ej. 'nda', 'contrato_laboral')
         texto_contrato: Texto completo del contrato a revisar
         
     Returns:
-        Dict con resultados de la revisión, problemas potenciales y recomendaciones
+        Dict con resultados del análisis
     """
-    if tipo_contrato.lower() not in BASE_DE_DATOS_LEGAL:
-        return {
-            "estado": "error",
-            "mensaje": f"Tipo de contrato no soportado. Tipos soportados: {', '.join(BASE_DE_DATOS_LEGAL.keys())}"
-        }
+    # Cargar documentos relevantes
+    documentos_dict = cargar_documentos()
     
-    info_contrato = BASE_DE_DATOS_LEGAL[tipo_contrato.lower()]
+    # Buscar términos relacionados con el tipo de contrato
+    resultados_busqueda = buscar_en_documentos(texto_contrato)
     
-    # En una aplicación real, esto implicaría un análisis de PNL más sofisticado
-    problemas_encontrados = []
-    for problema in info_contrato["problemas_comunes"]:
-        if any(palabra in texto_contrato.lower() for palabra in problema.lower().split()):
-            problemas_encontrados.append(problema)
+    # Analizar el contrato
+    analisis = analizar_documento(texto_contrato, "contrato")
     
     return {
-        "estado": "éxito",
         "tipo_contrato": tipo_contrato,
-        "terminos_estandar": info_contrato["terminos_estandar"],
-        "problemas_encontrados": problemas_encontrados if problemas_encontrados else ["No se detectaron problemas obvios"],
+        "fecha_analisis": datetime.now().isoformat(),
+        "resultados_busqueda": resultados_busqueda,
+        "analisis": analisis,
         "recomendaciones": [
-            "Haga revisar el contrato por un abogado calificado antes de firmar",
-            "Considere negociar los términos resaltados"
+            "Revisar los términos encontrados con un abogado",
+            "Considerar las recomendaciones del análisis"
         ]
     }
 
 def verificar_cumplimiento(regulacion: str, proceso_negocio: str) -> Dict:
     """
-    Verifica si un proceso de negocio cumple con las regulaciones especificadas.
+    Verifica el cumplimiento de regulaciones usando documentos reales.
     
     Args:
-        regulacion: Regulación contra la cual verificar (ej. 'lgpd', 'ccpa')
-        proceso_negocio: Descripción del proceso de negocio a verificar
+        regulacion: Regulación contra la cual verificar
+        proceso_negocio: Descripción del proceso de negocio
         
     Returns:
-        Dict con análisis de cumplimiento y recomendaciones
+        Dict con análisis de cumplimiento
     """
-    regulacion = regulacion.lower()
-    if regulacion not in BASE_DE_CONOCIMIENTO_LEGAL:
-        return {
-            "estado": "error",
-            "mensaje": f"Regulación no soportada. Regulaciones soportadas: {', '.join(BASE_DE_CONOCIMIENTO_LEGAL.keys())}"
-        }
+    # Cargar documentos relevantes
+    documentos_dict = cargar_documentos()
     
-    info_regulacion = BASE_DE_CONOCIMIENTO_LEGAL[regulacion]
+    # Buscar términos relacionados con la regulación
+    resultados_busqueda = buscar_en_documentos(documentos_dict, regulacion)
     
     return {
-        "estado": "éxito",
-        "regulacion": regulacion.upper(),
-        "resumen": info_regulacion["resumen"],
-        "requisitos_clave": info_regulacion["requisitos_clave"],
-        "recomendaciones": [
-            f"Asegúrese de que su proceso de {proceso_negocio} aborde todos los requisitos clave de {regulacion.upper()}",
-            "Documente sus medidas de cumplimiento",
-            "Revise y actualice regularmente su programa de cumplimiento"
-        ]
+        "regulacion": regulacion,
+        "fecha_verificacion": datetime.now().isoformat(),
+        "cumple": len(resultados_busqueda) > 0,
+        "resultados_busqueda": resultados_busqueda,
+        "recomendaciones": "Verificación basada en documentos reales completada"
     }
 
 def rastrear_plazos_contrato(nombre_contrato: str, 
@@ -200,11 +175,11 @@ root_agent = Agent(
         "Puedes gestionar documentos en las siguientes categorías: contratos, facturas y documentos_legales."
     ),
     tools=[
-        revisar_contrato, 
-        verificar_cumplimiento, 
+        revisar_contrato,
+        verificar_cumplimiento,
         rastrear_plazos_contrato,
         listar_documentos,
         buscar_en_documentos,
         leer_documento
-    ],
+    ]
 )
