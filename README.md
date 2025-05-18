@@ -97,34 +97,34 @@ Puedes modificar estos documentos o reemplazarlos con tus propios archivos en la
 
 ## Ejemplos de Uso
 
-### 1. Revisión del Contrato de Servicios
+### 1. Revisión de Obligaciones
 ```
-Revisa el contrato de servicios tecnológicos y destaca las obligaciones del cliente
+Analiza el contrato de servicios tecnológicos y enumera las principales obligaciones del proveedor
 ```
 
 ### 2. Análisis de Confidencialidad
 ```
-Analiza el NDA y verifica el período de confidencialidad y las excepciones
+Revisa el acuerdo de confidencialidad con Nexus y explica las condiciones de divulgación permitida
 ```
 
 ### 3. Verificación de Cumplimiento
 ```
-¿Nuestra política de privacidad cumple con los requisitos del RGPD y la LGPD?
+¿La política de privacidad cumple con los requisitos de protección de datos actuales?
 ```
 
 ### 4. Búsqueda de Términos
 ```
-Busca menciones de "propiedad intelectual" en todos los contratos
+Busca y analiza las cláusulas relacionadas con propiedad intelectual en el contrato de servicios tecnológicos
 ```
 
 ### 5. Análisis de Plazos
 ```
-Identifica todas las fechas importantes en el contrato de arrendamiento
+Identifica y enumera todas las fechas importantes y plazos en el contrato de arrendamiento
 ```
 
 ### 6. Comparación de Documentos
 ```
-Compara las cláusulas de confidencialidad entre el NDA y el contrato de servicios
+Compara las cláusulas de confidencialidad entre el acuerdo con Nexus y el contrato de servicios tecnológicos
 ```
 
 ### 7. Generación de Recordatorios
