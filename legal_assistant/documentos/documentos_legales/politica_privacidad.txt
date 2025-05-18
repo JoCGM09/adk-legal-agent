@@ -1,0 +1,80 @@
+POLÍTICA DE PRIVACIDAD Y PROTECCIÓN DE DATOS PERSONALES
+Última actualización: 18 de mayo de 2025
+
+1. RESPONSABLE DEL TRATAMIENTO
+   TECNOLOGÍAS AVANZADAS S.A. DE C.V. (en adelante, "la Empresa" o "el Responsable")
+   Domicilio Fiscal: Av. Paseo de la Reforma 505, Piso 12, Col. Cuauhtémoc, C.P. 06500, CDMX, México
+   Correo electrónico: privacidad@tecnologiasavanzadas.com.mx
+   Teléfono: +52 55 1234 5678
+   RFC: TAV850518ABC
+
+2. DATOS PERSONALES RECABADOS
+   La Empresa podrá recabar los siguientes datos personales:
+   
+   a) Datos de identificación: Nombre completo, fecha de nacimiento, firma, RFC, CURP, nacionalidad, estado civil.
+   b) Datos de contacto: Domicilio, teléfono particular, teléfono celular, correo electrónico.
+   c) Datos laborales: Puesto, área de adscripción, correo electrónico corporativo, número telefónico laboral.
+   d) Datos patrimoniales y/o financieros: Cuenta bancaria, CLABE interbancaria, historial crediticio.
+   e) Datos biométricos: Huella digital, reconocimiento facial (únicamente para control de acceso).
+   f) Datos de navegación: Dirección IP, tipo de navegador, páginas visitadas, tiempo de navegación.
+
+3. FINALIDADES DEL TRATAMIENTO
+   Los datos personales recabados serán utilizados para las siguientes finalidades:
+   
+   Finalidades principales:
+   - Proporcionar los servicios y/o productos solicitados.
+   - Cumplir con las obligaciones contraídas con nuestros clientes.
+   - Procesar pagos y facturación.
+   - Dar seguimiento a solicitudes de información o contacto.
+   
+   Finalidades secundarias:
+   - Envío de información comercial y promocional.
+   - Realización de encuestas de satisfacción.
+   - Invitaciones a eventos corporativos.
+   - Mejora de nuestros productos y servicios.
+
+4. TRANSFERENCIA DE DATOS
+   Sus datos personales podrán ser transferidos y tratados dentro y fuera del país, por personas distintas a esta empresa. En ese sentido, su información podrá ser compartida con:
+   
+   - Empresas del mismo grupo corporativo.
+   - Autoridades competentes cuando exista un requerimiento legal.
+   - Proveedores de servicios que requieran acceso a los datos para cumplir con las finalidades descritas.
+   - En caso de una fusión, adquisición o venta de activos, podríamos transferir su información a la entidad sucesora.
+
+5. DERECHOS ARCO
+   Usted tiene derecho a acceder, rectificar, cancelar u oponerse al tratamiento de sus datos personales (Derechos ARCO). Para ejercer estos derechos, deberá presentar una solicitud en la siguiente dirección de correo electrónico: derechosarco@tecnologiasavanzadas.com.mx o en nuestro domicilio.
+
+   Su solicitud deberá contener:
+   - Nommo del titular.
+   - Documento que acredite su identidad o representación legal.
+   - Descripción clara y precisa de los datos respecto de los que busca ejercer alguno de los derechos antes mencionados.
+   - Cualquier otro elemento o documento que facilite la localización de los datos personales.
+
+6. REVOCACIÓN DEL CONSENTIMIENTO
+   Usted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los casos podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando sus datos personales.
+
+7. CAMBIOS A LA POLÍTICA DE PRIVACIDAD
+   La presente Política de Privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos requerimientos legales; de nuestras propias necesidades por los productos o servicios que ofrecemos; de nuestras prácticas de privacidad; de cambios en nuestro modelo de negocio, o por otras causas. Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir la presente Política de Privacidad, a través de nuestro sitio web o por correo electrónico.
+
+8. PROCEDIMIENTO PARA LIMITAR EL USO O DIVULGACIÓN DE SUS DATOS
+   Para limitar el uso o divulgación de su información personal, puede enviar un correo electrónico a privacidad@tecnologiasavanzadas.com.mx o comunicarse a nuestro departamento de privacidad al teléfono +52 55 1234 5678, donde le atenderemos con gusto para atender su solicitud.
+
+9. USO DE COOKIES Y TECNOLOGÍAS DE RASTREO
+   Nuestro sitio web utiliza cookies y otras tecnologías de rastreo para mejorar su experiencia de usuario. Usted puede configurar su navegador para que le notifique cuando reciba cookies o para que las rechace. Sin embargo, si lo hace, es posible que algunas características de nuestro sitio web no funcionen correctamente.
+
+10. SEGURIDAD DE LOS DATOS
+    Implementamos medidas de seguridad administrativas, técnicas y físicas para proteger sus datos personales contra daño, pérdida, alteración, destrucción o el uso, acceso o tratamiento no autorizado. Sin embargo, ninguna transmisión por Internet o sistema de almacenamiento electrónico puede garantizar seguridad al 100%.
+
+11. MENORES DE EDAD
+    No recopilamos a sabiendas información de menores de edad. Si es padre o tutor y tiene conocimiento de que su hijo nos ha proporcionado datos personales, por favor contáctenos. Si tenemos conocimiento de que hemos recopilado datos personales de un menor sin verificación del consentimiento de los padres, tomaremos medidas para eliminar esa información de nuestros servidores.
+
+12. CONTACTO
+    Si tiene preguntas o comentarios sobre esta Política de Privacidad o sobre el tratamiento de sus datos personales, puede contactarnos a través de:
+    
+    Correo electrónico: privacidad@tecnologiasavanzadas.com.mx
+    Teléfono: +52 55 1234 5678
+    Domicilio: Av. Paseo de la Reforma 505, Piso 12, Col. Cuauhtémoc, C.P. 06500, CDMX, México
+    
+    Horario de atención: Lunes a viernes de 9:00 a 18:00 horas.
+
+Al proporcionarnos sus datos personales y/o hacer uso de nuestros servicios, usted acepta los términos de la presente Política de Privacidad.

@@ -1,0 +1,46 @@
+ACUERDO DE CONFIDENCIALIDAD (NDA)
+
+Este ACUERDO DE CONFIDENCIALIDAD (en lo sucesivo, el "Acuerdo") se celebra el 10 de mayo de 2025, por y entre:
+
+Por una parte, NEXUS TECHNOLOGIES, S.A. DE C.V., sociedad mexicana, representada en este acto por el Ing. Carlos Eduardo Ramírez Morales, en su carácter de Director de Innovación, a quien en lo sucesivo se le denominará "LA EMPRESA".
+
+Y por la otra, la empresa CONSULTORÍA AVANZADA EN TECNOLOGÍA, S.C., representada por la Lic. Fernanda Gutiérrez del Río, en su carácter de Socia Fundadora, a quien en lo sucesivo se le denominará "EL CONSULTOR".
+
+1. DEFINICIONES
+1.1. "Información Confidencial" significa cualquier información, en cualquier forma, incluyendo pero no limitado a: datos técnicos, planes de negocio, estrategias comerciales, información financiera, listas de clientes, códigos fuente, diseños, fórmulas, procesos, técnicas, know-how, invenciones, descubrimientos, conceptos, ideas, documentos, prototipos, muestras, diseños, manuales, especificaciones, informes, estudios, análisis, compilaciones, memorandos, correspondencia y cualquier otra información revelada por cualquiera de las Partes a la otra Parte, ya sea de forma oral, escrita, gráfica, electrónica o en cualquier otro formato.
+
+2. OBLIGACIONES DE CONFIDENCIALIDAD
+2.1. El CONSULTOR se compromete a:
+   a) Mantener en estricta confidencialidad toda la Información Confidencial que reciba de LA EMPRESA.
+   b) No revelar, total o parcialmente, dicha información a terceros sin el consentimiento previo y por escrito de LA EMPRESA.
+   c) Utilizar la Información Confidencial únicamente para los fines establecidos en el Contrato de Prestación de Servicios celebrado entre las Partes.
+   d) Implementar medidas de seguridad razonables para proteger la Información Confidencial.
+
+3. PLAZO
+3.1. Las obligaciones de confidencialidad establecidas en este Acuerdo tendrán una duración de cinco (5) años contados a partir de la fecha de su firma, independientemente de la terminación de cualquier relación comercial entre las Partes.
+
+4. EXCEPCIONES
+4.1. Las obligaciones de confidencialidad no se aplicarán a la información que:
+   a) Sea o llegue a ser de dominio público sin violación de este Acuerdo;
+   b) Esté en posesión del CONSULTOR antes de su divulgación por parte de LA EMPRESA, según conste en registros fehacientes;
+   c) Sea recibida de un tercero que no esté obligado a mantener su confidencialidad;
+   d) Sea desarrollada independientemente por el CONSULTOR sin uso de la Información Confidencial; o
+   e) Sea requerida por orden judicial o administrativa, en cuyo caso el CONSULTOR notificará inmediatamente a LA EMPRESA para que ésta pueda oponerse a dicha revelación.
+
+5. PROPIEDAD INTELECTUAL
+5.1. Nada de lo dispuesto en este Acuerdo se interpretará como una licencia o cesión de derechos de propiedad intelectual de LA EMPRESA sobre su Información Confidencial.
+5.2. Todos los derechos de propiedad intelectual sobre la Información Confidencial son y seguirán siendo propiedad exclusiva de LA EMPRESA.
+
+6. SANCIONES
+6.1. En caso de incumplimiento de las obligaciones de confidencialidad, el CONSULTOR pagará a LA EMPRESA una indemnización por daños y perjuicios equivalente a diez veces el monto total de los honorarios pactados en el Contrato de Prestación de Servicios, sin perjuicio de otras acciones legales a las que hubiere lugar.
+
+7. LEY APLICABLE Y JURISDICCIÓN
+7.1. Este Acuerdo se regirá por las leyes de los Estados Unidos Mexicanos y cualquier controversia que surja en relación con el mismo se someterá a la jurisdicción exclusiva de los tribunales competentes de la Ciudad de México, renunciando expresamente a cualquier otra jurisdicción que por razón de sus domicilios presentes o futuros pudiera corresponderles.
+
+POR LA EMPRESA:                         POR EL CONSULTOR:
+___________________________             ___________________________
+Ing. Carlos Eduardo Ramírez Morales     Lic. Fernanda Gutiérrez del Río
+Director de Innovación                  Socia Fundadora
+NEXUS TECHNOLOGIES, S.A. DE C.V.        CONSULTORÍA AVANZADA EN TECNOLOGÍA, S.C.
+
+FECHA: 10 de mayo de 2025              FECHA: 10 de mayo de 2025

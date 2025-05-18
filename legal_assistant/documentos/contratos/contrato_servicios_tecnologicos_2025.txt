@@ -1,0 +1,54 @@
+CONTRATO DE PRESTACIÓN DE SERVICIOS TECNOLÓGICOS
+
+ENTRE:
+TECNOSOLUCIONES MÉXICO, S.A. DE C.V., representada por el Lic. Roberto Méndez González, Director General, a quien en lo sucesivo se le denominará "EL PRESTADOR".
+
+Y
+
+INNOVACIONES DIGITALES, S.A.P.I. DE C.V., representada por la C.P. Ana Laura Sánchez Ruíz, Directora de Operaciones, a quien en lo sucesivo se le denominará "EL CLIENTE".
+
+PRIMERA. OBJETO
+1.1. EL PRESTADOR se obliga a prestar al CLIENTE los siguientes servicios profesionales de consultoría en transformación digital:
+   a) Análisis de procesos actuales y diagnóstico tecnológico
+   b) Implementación de soluciones de automatización
+   c) Migración de infraestructura a la nube
+   d) Capacitación al personal técnico
+   e) Soporte post-implementación por 6 meses
+
+1.2. Los alcances específicos de cada servicio se detallan en el Anexo Técnico que forma parte integrante de este contrato.
+
+SEGUNDA. DURACIÓN
+2.1. El presente contrato tendrá una duración de doce (12) meses contados a partir de la fecha de firma.
+2.2. Podrá ser prorrogado por periodos iguales, salvo notificación en contrario con treinta (30) días de anticipación a la fecha de terminación.
+
+TERCERA. HONORARIOS Y FORMA DE PAGO
+3.1. Por los servicios prestados, EL CLIENTE pagará a EL PRESTADOR la cantidad de $250,000.00 (DOSCIENTOS CINCUENTA MIL PESOS 00/100 M.N.) más IVA mensuales.
+3.2. Los pagos se realizarán mediante transferencia electrónica a la cuenta que para tal efecto indique EL PRESTADOR, dentro de los primeros cinco días hábiles de cada mes.
+3.3. Por pagos posteriores a la fecha señalada, se cobrará un interés moratorio del 3% mensual sobre el monto de la renta.
+
+CUARTA. CONFIDENCIALIDAD
+4.1. Las partes se comprometen a mantener estricta confidencialidad sobre toda la información intercambiada durante la vigencia de este contrato y hasta tres años después de su terminación.
+4.2. Quedan excluidas de esta obligación las informaciones que:
+   a) Sean de dominio público
+   b) Hayan sido conocidas con anterioridad
+   c) Sean recibidas de terceros sin obligación de confidencialidad
+   d) Sean requeridas por autoridad competente
+
+QUINTA. PROPIEDAD INTELECTUAL
+5.1. Todo el software, documentación y materiales desarrollados específicamente para EL CLIENTE serán de su exclusiva propiedad, una vez que se haya cubierto el pago total de los honorarios acordados.
+5.2. Las herramientas, metodologías y know-how propiedad de EL PRESTADOR mantendrán su carácter confidencial y de propiedad exclusiva de EL PRESTADOR.
+
+SEXTA. TERMINACIÓN
+6.1. Cualquiera de las partes podrá dar por terminado el presente contrato mediante aviso por escrito con treinta días de anticipación, sin responsabilidad alguna, siempre que no exista incumplimiento de las obligaciones pactadas.
+6.2. En caso de terminación anticipada por causa imputable a EL CLIENTE, éste deberá pagar a EL PRESTADOR los honorarios correspondientes a los servicios prestados hasta la fecha de terminación, más una penalización del 20% sobre el monto de los servicios no prestados.
+
+SÉPTIMA. JURISDICCIÓN
+7.1. Para todo lo relacionado con la interpretación y cumplimiento de este contrato, las partes se someten a las leyes aplicables en la Ciudad de México y a la jurisdicción de sus tribunales, renunciando expresamente a cualquier otra jurisdicción que por razón de sus domicilios presentes o futuros pudiera corresponderles.
+
+POR EL PRESTADOR:                     POR EL CLIENTE:
+___________________________           ___________________________
+Lic. Roberto Méndez González          C.P. Ana Laura Sánchez Ruíz
+Director General                      Directora de Operaciones
+TECNOSOLUCIONES MÉXICO, S.A. DE C.V.  INNOVACIONES DIGITALES, S.A.P.I. DE C.V.
+
+FECHA: 15 de mayo de 2025            FECHA: 15 de mayo de 2025
